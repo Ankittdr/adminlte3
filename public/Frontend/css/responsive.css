@@ -1,0 +1,276 @@
+@media(max-width:1200px){
+    .nav-item .follow {
+        display: none;
+    }
+}
+@media(max-width:1024px){
+    .navbar-nav {
+        text-align: center;
+    }
+    #bg .banner {
+        height: 45vh;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 40%;
+        right: 0px;
+    }
+    #program .program-content .program-bottom p{
+        font-size: 24px;
+    }
+    .title h1:before {
+        width: 66%;
+    }
+    #program .program-title h1:before {
+        width: 58%;
+    }
+    #events .events-title h1::before {
+        position: absolute;
+        bottom: -25px;
+        left: 29rem;
+    }
+    #gallery .gallery-title h1::before {
+        position: absolute;
+        bottom: -25px;
+        left: 27rem;
+    }
+    #teachers .teachers-title h1::before {
+        position: absolute;
+        bottom: -25px;
+        left: 27rem;
+    }
+    .footer-logo img {
+        width: 210px;
+    }
+}
+@media(max-width:768px){
+    #bg .banner {
+        height: 60vh;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    /* .red {
+        background: linear-gradient(to right, #fff 232px , #074198 15rem) !important;
+    } */
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        padding: 7px 14px;
+        width: 150px;
+        margin: auto;
+    }
+    #program .program-content .program-bottom p {
+        font-size: 17px;
+        line-height: 1.4;
+    }
+    #program .program-title h1:before {
+        width: 79%;
+    }
+    .title h1:before {
+        width: 49%;
+    }
+    #admission h2 {
+        font-size: 20px;
+    }
+    #admission .col-md-9 a {
+        padding: 6px 29px;
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 7px;
+    }
+    #admission .admission-apply a {
+        font-size: 16px;
+    }
+    #events .events-title h1::before {
+        position: absolute;
+        bottom: -25px;
+        left: 21rem;
+    }
+    #gallery .gallery-title h1::before {
+        position: absolute;
+        bottom: -25px;
+        left: 19rem;
+    }
+    #testimonials .testimonial-header .testimonial-title h1::after{
+        position: absolute;
+        top: 50px;
+        left: 43%;
+    }
+    #teachers .teachers-title h1::before{
+        position: absolute;
+        bottom: -25px;
+        left: 19rem;
+    }
+    .footer-logo img {
+        width: 150px;
+    }
+    .social-links a {
+        margin-right: -15px;
+     }
+}
+/*@media(min-width:480px) and (max-width:570px){
+    .red {
+        background: linear-gradient(to right, #2f7ff7, #074198) !important;
+    }
+}
+@media(min-width:570px) and (max-width:768px){
+    .red {
+        background:linear-gradient(to right, #fff 252px , #074198 16rem) !important;
+    }
+}*/
+@media(max-width:480px){
+    #bg .banner {
+        height: 75vh;
+    }
+    .navbar{
+        padding-bottom: 3px;
+    }
+    .navbar .navbar-brand{
+        padding-bottom: 50px;
+    }
+    .nav-item{
+        margin: auto;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+    .title h1:before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 1rem;
+        width: 90%;
+    }
+    #program .program-title h1:before{
+        width: 81%;
+    }
+    .mobile-left{
+        text-align: left !important;
+        padding-bottom: 10px;
+    }
+    #admission .col-md-9 a {
+        padding: 9px 20px;
+        font-size: 17px;
+    }
+    #gallery .gallery-title h1::before{
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 10rem;
+    }
+    #testimonials .testimonial-header .testimonial-title h1::after {
+        position: absolute;
+        top: 50px;
+        left: 36%;
+    }
+    #teachers .teachers-title h1::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 10rem;
+    }
+    .aboutImg {
+        margin-top: 40px;
+    }
+    .aboutImg img {
+        width: 100%;
+    }
+    .red {
+        background: linear-gradient(to right, #2f7ff7, #074198) !important;
+        padding-bottom: 4px !important;
+    }
+    .news {
+        margin-top: 25px;
+        background-color: #e1f2f5;
+        padding: 40px;
+    }
+    .news-content .date {
+        margin: 10px 0;
+    }
+    #life-at .col-md-6:first-child{
+        margin-bottom: 40px;
+    }
+    #events .events-title h1::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 10rem;
+    }
+    .footer-logo img {
+        width: 200px;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 40%;
+        right: 0px;
+    }
+    .icon-bar a {
+        padding: 14px;
+        font-size: 14px;
+    }
+    .social-links a {
+        margin-right: 0px;
+    }
+    footer .text-right{
+        display: none;
+    }
+    footer p{
+            margin-bottom:0 !important;
+            font-size: 14px;
+            text-align: center;
+    }
+}
+@media(max-width:360px){
+    #bg .banner {
+        height: 92vh;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        right: 0px;
+    }
+    .title h1 {
+        font-size: 25px;
+    }
+    #program .program-title h1 {
+        font-size: 26px;
+    }
+    #program .program-title h1::before {
+        width: 84%;
+    }
+    #program .program-content .program-bottom {
+        line-height: 1.4;
+    }
+    #admission h2 {
+        font-size: 16px;
+    }
+    #admission .col-md-9 a {
+        padding: 8px 17px;
+        font-size: 15px;
+    }
+    #gallery .gallery-title h1::before{
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 8rem;
+    }
+    #events .events-title h1::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 9rem;
+    }
+    #teachers .teachers-title h1::before {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 8rem;
+    }
+}
+
+@media(max-width:320px){
+    #admission .col-md-9 a {
+        padding: 10px 13px;
+        font-size: 13px;
+    }
+}
